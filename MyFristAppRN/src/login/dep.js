@@ -10,7 +10,6 @@ export default class Logo extends Component {
   render(){
     return(
       <View style={styles.container}>
-        <Image source={imgLogo} style={styles.images}/>
         <Text style={styles.text}>{this.props.text}</Text>
       </View>
     );
@@ -19,17 +18,12 @@ export default class Logo extends Component {
 
 const styles = StyleSheet.create({
   container:{
-    flex:1,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 150,
-    marginBottom:150
+    marginTop: 10,
+    marginBottom:10
   },
-  images:{
-    width: 150,
-    height: 150,
 
-  },
   text:{
     color: 'black',
     fontWeight:'bold',

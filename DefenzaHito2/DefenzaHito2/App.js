@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  *
  * @format
- * @flow
+ * @flow strict-local
  */
 
 import React from 'react';
@@ -24,22 +24,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import MyComponente from './src/test/MyComponente';
 import Logo from './src/login/logo';
-import Input from './src/login/input';
-import Dept from './src/login/dep';
 
 const App: () => React$Node = () => {
   return (
     <View>
-      <Logo text="EPIDEMIA CORONAVIRUS"/>
-      <Input text="casos confirmados"/>
-      <Input text="casos Sospechosos"/>
 
-
-      <Dept text="Cochabamba"
-      <Input text="casos "/>
-      />
     </View>
   );
 };

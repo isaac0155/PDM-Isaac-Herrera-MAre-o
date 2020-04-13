@@ -13,7 +13,7 @@ export default class MyComponente extends Component
     var imag={uri:this.props.image};
     return(
             <View>
-              <Image source={imag} style={{width:300, height:300}}/>
+              <Image source={imag} style={{width:50, height:50}}/>
               <Text>{this.props.text}</Text>
             </View>
           );
