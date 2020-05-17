@@ -8,5 +8,9 @@ export default {
   customColor: '#F035E0',
   red: '#F8262F',
   blue: '#428AF8',
-  silver: '#BEBEBE'
+  silver: '#BEBEBE',
+  black2: '#101010',
+  white2: '#ebebeb',
+  appPrimary: '#4DCA77',
+  fieldBackgroud: 'rgba(255, 255, 255, 0.4)'
 }
